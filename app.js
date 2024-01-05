@@ -6,8 +6,9 @@ function parseJSON(jsonString) {
     }
 }
 
-const jsonString1 = '{"name": "Lusi", "age": "30", "city": "Los Angeles"}';
-const jsonString2 = '{"name": "Michael", "age": "twenty", "city": "Chicago"}';
+const jsonString1 = '{"name": "John", "age": 30, "city": "New York"}';
+
+const jsonString2 = '{"name": "Alice" "age": twenty-five, "city": "London"}';
 
 console.log(parseJSON(jsonString1));
 
